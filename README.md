@@ -16,7 +16,7 @@ To start the AirBnB clone console, follow these steps:
  git clone https://github.com/Ogechukwu11/AirBnB_clone.git
 
 - Navigate to the project directory:
- cd airbnb-clone
+ cd models
 
 - Launch the console:
  python3 console.py
