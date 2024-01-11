@@ -13,18 +13,18 @@ The command interpreter serves as the gateway to interact with the AirBnB clone.
 To start the AirBnB clone console, follow these steps:
 
 - Clone the repository to your local machine:
-git clone https://github.com/your-username/airbnb-clone.git
+ git clone https://github.com/Ogechukwu11/AirBnB_clone.git
 
 - Navigate to the project directory:
-cd airbnb-clone
+ cd airbnb-clone
 
 - Launch the console:
-python3 console.py
+ python3 console.py
 
 ## How to Use
 
 Once the console is running, you can enter commands following the syntax:
-(command) (options)
+ (command) (options)
 
 Here are some essential commands:
 
@@ -38,12 +38,12 @@ Here are some essential commands:
 ## Examples
 
 - Creating a new user:
-(console) create User
+ (console) create User
 
 - Updating the name of a place:
-(console) update Place 1234-1234-1234 name "New Name"
+ (console) update Place 1234-1234-1234 name "New Name"
 
 - Showing information about a specific booking:
-(console) show Booking 5678-5678-5678
+ (console) show Booking 5678-5678-5678
 
 Feel free to explore and experiment with various commands to make the most out of the AirBnB clone console!
