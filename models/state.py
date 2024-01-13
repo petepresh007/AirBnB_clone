@@ -4,5 +4,8 @@ from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Class for state"""
+    """Class for state
+       attr:
+       name: name
+    """
     name = ""
