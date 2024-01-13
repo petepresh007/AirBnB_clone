@@ -6,6 +6,8 @@ import models
 
 
 class BaseModel:
+    """ Represent a BaseModel """
+
     def __init__(self, *args, **kwargs):
         """ Main constructor
             Args:
