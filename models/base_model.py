@@ -12,11 +12,7 @@ class BaseModel:
             *args: not used
             **kwargs: key value pairs
         """
-
         time_format = "%Y-%m-%dT%H:%M:%S.%f"
-        self.id = str(uuid.uuid4())
-        self.created_at = datetime.now()
-        self.updated_at = datetime.now()
 
         if len(kwargs) != 0:
             for key, value in kwargs.items():
@@ -25,7 +21,9 @@ class BaseModel:
                 else:
                     self.__dict__[key] = value
         else:
-            models.storage.new(self)
+            self.id = str(uuid.uuid4())
+            self.created_at = datetime.now()
+            self.updated_at = datetime.now()
 
     def save(self):
         """updates the public instance attribute updated_at with
